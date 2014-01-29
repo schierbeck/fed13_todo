@@ -1,0 +1,56 @@
+body {
+	margin: 0 auto;
+	font-family: Helvetica, Arial, sans-serif;
+	width: 302px;
+}
+
+header {
+	float: left;
+	nav {
+		height: 40px;
+		ul {
+			list-style: none;
+			line-height: 40px;
+			margin: 0;
+			padding: 0;
+
+			li {
+				float: left;
+				margin-right: 20px;
+			}
+		}
+	}
+}
+
+#wrap {
+	float: left;
+}
+
+.task {
+	background: #F1F1F1;
+	border: 1px solid #AAA;
+	border-radius: 5px;
+	box-shadow: 2px 3px 0 #DDD;
+	margin-bottom: 10px;
+	padding: 20px 20px 10px;
+	position: relative;
+	width: 260px;
+
+	h2 {
+		font-size: 1.2em;
+		margin-top: 0;
+	}
+}
+
+.finished {
+	background: #99FF99;
+}
+
+.overdue {
+	background: #FF9999;
+
+}
+
+input[type="text"], input[type="email"], input[type="date"], textarea {
+	width: 100%;
+}

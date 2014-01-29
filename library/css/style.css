@@ -1,0 +1,53 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/todo\/library\/scss\/style\.scss}line{font-family:\000031}}
+body {
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 302px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/todo\/library\/scss\/style\.scss}line{font-family:\000037}}
+header {
+  float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/todo\/library\/scss\/style\.scss}line{font-family:\000039}}
+  header nav {
+    height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/todo\/library\/scss\/style\.scss}line{font-family:\0000311}}
+    header nav ul {
+      list-style: none;
+      line-height: 40px;
+      margin: 0;
+      padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/todo\/library\/scss\/style\.scss}line{font-family:\0000317}}
+      header nav ul li {
+        float: left;
+        margin-right: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/todo\/library\/scss\/style\.scss}line{font-family:\0000325}}
+#wrap {
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/todo\/library\/scss\/style\.scss}line{font-family:\0000329}}
+.task {
+  background: #F1F1F1;
+  border: 1px solid #AAA;
+  border-radius: 5px;
+  box-shadow: 2px 3px 0 #DDD;
+  margin-bottom: 10px;
+  padding: 20px 20px 10px;
+  position: relative;
+  width: 260px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/todo\/library\/scss\/style\.scss}line{font-family:\0000339}}
+  .task h2 {
+    font-size: 1.2em;
+    margin-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/todo\/library\/scss\/style\.scss}line{font-family:\0000345}}
+.finished {
+  background: #99FF99; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/todo\/library\/scss\/style\.scss}line{font-family:\0000349}}
+.overdue {
+  background: #FF9999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/todo\/library\/scss\/style\.scss}line{font-family:\0000354}}
+input[type="text"], input[type="email"], input[type="date"], textarea {
+  width: 100%; }
